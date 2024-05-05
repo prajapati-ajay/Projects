@@ -1,0 +1,15 @@
+1.install node js
+2.install vs code
+3.create a react app using command "npx create-next-app"
+go to vs code and open a the folder where u created yr react app.And also open a terminal.
+4.in terminal run "npm run-script build" to build the app.
+5.run "npm start" this will start app.
+
+
+
+
+
+Better
+cmd
+1.npm install -g create-app
+2.create-react-app my_app
