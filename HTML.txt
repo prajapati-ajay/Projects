@@ -1,0 +1,64 @@
+1.<pre></pre> like <p> tag(inside <p>,  <br>,<hr> does nt work ,but in pre they do.)
+2.<hr> ----horizontal line.
+
+
+3.<a href="" target="_blank" title="">     [any thing that comes between <a>and</a> should be clicked to go to href link]
+   click me
+  </a>
+
+--when clicked on click me,target opens a new tab
+--when clicked on click me, titile shows msg,when hovered over click me.
+
+4.<a href="https://en.wikipedia.org/wiki/Dog" target="_blank" title="let s go to dog page">
+    <!--Adding image-->
+    <img src="dog.jpg" height="400" width="250" alt="This is a cute dog">
+
+    </a>
+{if incase image does not display then alt will be displayed.}
+
+5. <!--Adding Audio-->
+  <audio controls autoplay muted loop>
+    <source src="audio\in-the-forest-2-21402.mp3" type="audio/mpeg">
+    <source src="audio\in-the-forest-2-21402.mp3" type="audio/wav">   [type is not compulsory]
+</audio>
+
+OR
+<audio src="" controls autoplay>
+</audio>
+
+
+6.Adding Video:
+<video controls autoplay>
+<source src="Master Vowel Sounds - Commonly Mispronounced English Words _ English Pronunciation Practice #shorts.mp4" type="mp4">
+<source src="Master Vowel Sounds - Commonly Mispronounced English Words _ English Pronunciation Practice #shorts.mp4" type="webm">
+</video>
+
+OR
+<video src="" controls autoplay>
+</video>
+
+7.Adding favicon
+<head>
+    <title>My_First_App</title>
+    <link rel="icon" type="image/jpj" href="images\ajay.jpg">
+</head>
+
+8.Formatting of strings:
+
+<p>This is a normal text</p>
+<p>This is a <b>bold</b>b> text</p>
+<p>This is a <i>itallic</i> text</p>
+<p>This is a <u>underlined</u> text</p>
+<p>This is a <del>deleted</del> text</p>
+<p>This is a <big>big</big> text</p>
+<p>This is a <small>small</small> text</p>
+<p>This is a <sub>subscript</sub> text</p>
+<p>This is a <sup>supescript</sup> text</p>
+<p>This is a <tt>monospace</tt> text</p>
+<p>This is a <mark style="background-color: red;">marked</mark>text</p>
+
+9.<h1><span style= >title</span></h1>
+  <h1><div style= >title</div></h1>
+span and div are used for grouping css elements.
+
+10.List
