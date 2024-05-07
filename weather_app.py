@@ -43,7 +43,7 @@ entry_box.place(relwidth=0.66,relheight=1)
 submit_btn=tk.Button(frame, text="Get Weather",bg="black", fg="red",font=40,command=lambda:get_weather(entry_box.get()))
 submit_btn.place(relx=0.7, relheight=1,relwidth=0.3)
 lower_frame=tk.Frame(root,bd=5,bg="blue")
-lower_frame.place(relx=0.6, rely=0.25,relwidth=0.78,relheight=0.6,anchor="n")
+lower_frame.place(relx=0.5, rely=0.25,relwidth=0.78,relheight=0.6,anchor="n")
 label=tk.Label(lower_frame, font=56)
 label.place(relheight=1, relwidth=1)
 
